@@ -11,6 +11,7 @@
 		9E2540B22CB044D2002177B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2540B12CB044D2002177B3 /* ContentView.swift */; };
 		9E2540B42CB044D6002177B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2540B32CB044D6002177B3 /* Assets.xcassets */; };
 		9E2540B72CB044D6002177B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2540B62CB044D6002177B3 /* Preview Assets.xcassets */; };
+		9E761F182CB05B3000BCC85D /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 9E761F172CB05B3000BCC85D /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9E2540B12CB044D2002177B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E2540B32CB044D6002177B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E2540B62CB044D6002177B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E761F172CB05B3000BCC85D /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		9E2540AE2CB044D2002177B3 /* dog */ = {
 			isa = PBXGroup;
 			children = (
+				9E761F152CB05ADB00BCC85D /* SupportingFiles */,
 				9E2540AF2CB044D2002177B3 /* dogApp.swift */,
 				9E2540B12CB044D2002177B3 /* ContentView.swift */,
 				9E2540B32CB044D6002177B3 /* Assets.xcassets */,
@@ -65,6 +68,22 @@
 				9E2540B62CB044D6002177B3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E761F152CB05ADB00BCC85D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9E761F162CB05AEF00BCC85D /* Localization */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		9E761F162CB05AEF00BCC85D /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				9E761F172CB05B3000BCC85D /* Localizable.xcstrings */,
+			);
+			path = Localization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,11 +123,12 @@
 			};
 			buildConfigurationList = 9E2540A72CB044D2002177B3 /* Build configuration list for PBXProject "dog" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = ru;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 9E2540A32CB044D2002177B3;
 			productRefGroup = 9E2540AD2CB044D2002177B3 /* Products */;
@@ -127,6 +147,7 @@
 			files = (
 				9E2540B72CB044D6002177B3 /* Preview Assets.xcassets in Resources */,
 				9E2540B42CB044D6002177B3 /* Assets.xcassets in Resources */,
+				9E761F182CB05B3000BCC85D /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
