@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01BEFB082CC41313002EBCED /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEFB072CC41313002EBCED /* MainView.swift */; };
+		01BEFB0A2CC41331002EBCED /* ArticlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEFB092CC41331002EBCED /* ArticlesView.swift */; };
+		01BEFB0C2CC41361002EBCED /* TrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEFB0B2CC41361002EBCED /* TrainingView.swift */; };
+		01BEFB0F2CC41391002EBCED /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEFB0E2CC41391002EBCED /* MapView.swift */; };
+		01BEFB112CC413A3002EBCED /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEFB102CC413A3002EBCED /* ProfileView.swift */; };
 		80B44068ABEBF475719A6730 /* Pods_dog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FFDBBDDD07CAB813652DD23 /* Pods_dog.framework */; };
 		9E2540B02CB044D2002177B3 /* DogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2540AF2CB044D2002177B3 /* DogApp.swift */; };
 		9E2540B22CB044D2002177B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2540B12CB044D2002177B3 /* ContentView.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01BEFB072CC41313002EBCED /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		01BEFB092CC41331002EBCED /* ArticlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesView.swift; sourceTree = "<group>"; };
+		01BEFB0B2CC41361002EBCED /* TrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingView.swift; sourceTree = "<group>"; };
+		01BEFB0E2CC41391002EBCED /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		01BEFB102CC413A3002EBCED /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		0FFDBBDDD07CAB813652DD23 /* Pods_dog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5414D9D33336FECA3BF95FD5 /* Pods-dog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dog.release.xcconfig"; path = "Target Support Files/Pods-dog/Pods-dog.release.xcconfig"; sourceTree = "<group>"; };
 		777395EFBE52D1DF8466AE5B /* Pods-dog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dog.debug.xcconfig"; path = "Target Support Files/Pods-dog/Pods-dog.debug.xcconfig"; sourceTree = "<group>"; };
@@ -47,6 +57,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+
+		01BEFB062CC4128B002EBCED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01BEFB072CC41313002EBCED /* MainView.swift */,
+				01BEFB092CC41331002EBCED /* ArticlesView.swift */,
+				01BEFB0B2CC41361002EBCED /* TrainingView.swift */,
+				01BEFB0E2CC41391002EBCED /* MapView.swift */,
+				01BEFB102CC413A3002EBCED /* ProfileView.swift */,
+			);
+			path = Views;
 		218A51BE419D76938E00954B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +102,7 @@
 				9E761F152CB05ADB00BCC85D /* SupportingFiles */,
 				9E2540AF2CB044D2002177B3 /* DogApp.swift */,
 				9E2540B12CB044D2002177B3 /* ContentView.swift */,
+				01BEFB062CC4128B002EBCED /* Views */,
 				9E2540B32CB044D6002177B3 /* Assets.xcassets */,
 				9E2540B52CB044D6002177B3 /* Preview Content */,
 			);
@@ -251,7 +273,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E2540B22CB044D2002177B3 /* ContentView.swift in Sources */,
+				01BEFB0F2CC41391002EBCED /* MapView.swift in Sources */,
+				01BEFB082CC41313002EBCED /* MainView.swift in Sources */,
+				01BEFB0C2CC41361002EBCED /* TrainingView.swift in Sources */,
 				9E2540B02CB044D2002177B3 /* DogApp.swift in Sources */,
+				01BEFB112CC413A3002EBCED /* ProfileView.swift in Sources */,
+				01BEFB0A2CC41331002EBCED /* ArticlesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
