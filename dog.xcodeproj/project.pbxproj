@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01BEFB082CC41313002EBCED /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEFB072CC41313002EBCED /* MainView.swift */; };
+		01BEFB0A2CC41331002EBCED /* ArticlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEFB092CC41331002EBCED /* ArticlesView.swift */; };
+		01BEFB0C2CC41361002EBCED /* TrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEFB0B2CC41361002EBCED /* TrainingView.swift */; };
+		01BEFB0F2CC41391002EBCED /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEFB0E2CC41391002EBCED /* MapView.swift */; };
+		01BEFB112CC413A3002EBCED /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEFB102CC413A3002EBCED /* ProfileView.swift */; };
 		9E2540B02CB044D2002177B3 /* DogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2540AF2CB044D2002177B3 /* DogApp.swift */; };
 		9E2540B22CB044D2002177B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2540B12CB044D2002177B3 /* ContentView.swift */; };
 		9E2540B42CB044D6002177B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2540B32CB044D6002177B3 /* Assets.xcassets */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01BEFB072CC41313002EBCED /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		01BEFB092CC41331002EBCED /* ArticlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesView.swift; sourceTree = "<group>"; };
+		01BEFB0B2CC41361002EBCED /* TrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingView.swift; sourceTree = "<group>"; };
+		01BEFB0E2CC41391002EBCED /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		01BEFB102CC413A3002EBCED /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		9E2540AC2CB044D2002177B3 /* dog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E2540AF2CB044D2002177B3 /* DogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogApp.swift; sourceTree = "<group>"; };
 		9E2540B12CB044D2002177B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +51,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		01BEFB062CC4128B002EBCED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01BEFB072CC41313002EBCED /* MainView.swift */,
+				01BEFB092CC41331002EBCED /* ArticlesView.swift */,
+				01BEFB0B2CC41361002EBCED /* TrainingView.swift */,
+				01BEFB0E2CC41391002EBCED /* MapView.swift */,
+				01BEFB102CC413A3002EBCED /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		9E2540A32CB044D2002177B3 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +86,7 @@
 				9E761F152CB05ADB00BCC85D /* SupportingFiles */,
 				9E2540AF2CB044D2002177B3 /* DogApp.swift */,
 				9E2540B12CB044D2002177B3 /* ContentView.swift */,
+				01BEFB062CC4128B002EBCED /* Views */,
 				9E2540B32CB044D6002177B3 /* Assets.xcassets */,
 				9E2540B52CB044D6002177B3 /* Preview Content */,
 			);
@@ -132,7 +155,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9E2540A72CB044D2002177B3 /* Build configuration list for PBXProject "dog" */;
+			buildConfigurationList = 9E2540A72CB044D2002177B3 /* Build configuration list for PBXProject "Dog" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = ru;
 			hasScannedForEncodings = 0;
@@ -195,7 +218,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E2540B22CB044D2002177B3 /* ContentView.swift in Sources */,
+				01BEFB0F2CC41391002EBCED /* MapView.swift in Sources */,
+				01BEFB082CC41313002EBCED /* MainView.swift in Sources */,
+				01BEFB0C2CC41361002EBCED /* TrainingView.swift in Sources */,
 				9E2540B02CB044D2002177B3 /* DogApp.swift in Sources */,
+				01BEFB112CC413A3002EBCED /* ProfileView.swift in Sources */,
+				01BEFB0A2CC41331002EBCED /* ArticlesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +414,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9E2540A72CB044D2002177B3 /* Build configuration list for PBXProject "dog" */ = {
+		9E2540A72CB044D2002177B3 /* Build configuration list for PBXProject "Dog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9E2540B82CB044D6002177B3 /* Debug */,
