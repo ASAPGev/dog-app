@@ -1,0 +1,32 @@
+{
+  "sourceLanguage" : "ru",
+  "strings" : {
+    "Border collie" : {
+
+    },
+    "Главная" : {
+
+    },
+    "Карта" : {
+
+    },
+    "Привет, мир!" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hello, world!"
+          }
+        }
+      }
+    },
+    "Статьи" : {
+
+    },
+    "Тренировки" : {
+
+    }
+  },
+  "version" : "1.0"
+}
