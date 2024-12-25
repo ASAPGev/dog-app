@@ -4,6 +4,22 @@
     "Border collie" : {
 
     },
+    "Good with children: %@" : {
+
+    },
+    "Life expectancy: %@-%@ years" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Life expectancy: %1$@-%2$@ years"
+          }
+        }
+      }
+    },
+    "No data available" : {
+
+    },
     "Главная" : {
 
     },

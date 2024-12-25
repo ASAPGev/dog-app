@@ -1,20 +1,17 @@
 //
-//  ProfileViewModel.swift
+//  DogNetworkService.swift
 //  Dog
 //
-//  Created by MANVELYAN Gevorg on 24.11.2024.
+//  Created by MANVELYAN Gevorg on 29.11.2024.
 //
 
 import Foundation
 
-final class ProfileViewModel {
-    func getDog() {
-        
-    }
+protocol IDogNetworkService {
+    
 }
 
-
-class NetworkManager: ObservableObject {
+final class DogNetworkService {
     @Published var dogs: [Dog] = []
     private let apiKey = "gxP0BiTJiKROxTe6FgPmiw==n7YQWZgMt1QSckQC"
 
@@ -27,14 +24,12 @@ class NetworkManager: ObservableObject {
 
         do {
             let (data, _) = try await URLSession.shared.data(for: request)
-            let str = String(decoding: data, as: UTF8.self)
-            print(str)
             let decodedDogs = try JSONDecoder().decode([Dog].self, from: data)
             DispatchQueue.main.async {
                 self.dogs = decodedDogs
             }
         } catch {
-            print("Error fetching dogs: \(String(describing: error))")
+            print("Error fetching dogs: \(error.localizedDescription)")
         }
     }
 }
